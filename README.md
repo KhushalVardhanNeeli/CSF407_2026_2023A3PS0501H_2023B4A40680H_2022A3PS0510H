@@ -1,5 +1,10 @@
 # AI Drone Landing Zone Evaluation System
 
+Group Member IDNos.
+Anurag Padhy(Leader) - 2023A3PS0301H
+Khushal Vardhan Neeli - 2023B4A40680H
+Harshit Verma - 2022A3PS0510H
+
 ## Project Overview
 
 This project implements an Artificial Intelligence system for autonomous drone package delivery landing zone selection using:
