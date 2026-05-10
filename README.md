@@ -29,8 +29,9 @@ The system identifies the safest and closest landing region relative to a user-s
 
 *** Include dataset (semantic_drone_dataset/) in main folder if you want to train model.
 
-# Folder Structure
+## Folder Structure
 
+```text
 CSF407_2026_2023A3PS0301H_Assignment-II/
 │
 ├── src/
@@ -53,8 +54,7 @@ CSF407_2026_2023A3PS0301H_Assignment-II/
 ├── requirements.txt
 ├── config.yml
 └── README.md
-
----
+```
 
 # Installation
 
