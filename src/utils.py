@@ -5,15 +5,19 @@ import matplotlib.pyplot as plt
 
 def mask_to_rgb(mask):
     """
-    Converts segmentation class mask into RGB visualization.
+    Converts segmentation class mask into RGB visualization
+    matching assignment-style color palette.
     """
+
     color_map = {
-        1: [128, 128, 128],  # Pavement
-        3: [139, 69, 19],    # Dirt
-        4: [0, 255, 0],      # Grass
+        1: [160, 60, 160],   # Pavement -> purple
+        3: [40, 120, 40],    # Dirt -> green
+        4: [0, 180, 0],      # Grass -> bright green
     }
 
-    rgb = np.zeros((mask.shape[0], mask.shape[1], 3), dtype=np.uint8)
+    # Default background = dark blue/purple
+    rgb = np.ones((mask.shape[0], mask.shape[1], 3), dtype=np.uint8)
+    rgb[:, :] = [20, 40, 100]
 
     for class_id, color in color_map.items():
         rgb[mask == class_id] = color
