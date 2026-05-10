@@ -1,0 +1,21 @@
+name: CSF407_2026_2023A3PS0301H_Assignment-II
+
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+
+dependencies:
+  - python=3.12
+  - pip
+
+  - pip:
+      - torch
+      - torchvision
+      - torchaudio
+      - opencv-python
+      - matplotlib
+      - pillow
+      - numpy
+      - tqdm
+      - timm

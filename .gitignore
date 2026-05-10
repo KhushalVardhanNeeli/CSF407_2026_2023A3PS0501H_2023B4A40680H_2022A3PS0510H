@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+training_set/
+clean_dataset/
+*.pth
+*.jpg
+*.png
